@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking Website</title>
+    <link rel="stylesheet" href="transfer.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="content">
+        <h1>Trust Bank of India</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="current-amount">
+          <h2>Current Amount</h2>
+          <br />
+          Rs.<span class="current-balance">10000</span>
+        </div>
+        <div class="date">27 March 2024</div>
+      </div>
+      <div class="details">
+        <div class="trans-cards">
+          <h2>Transaction Amount</h2>
+          <input
+            type="number"
+            id="transaction-amount"
+            name="Transaction amount"
+            placeholder="Transaction amount"
+          />
+          <button type="submit">Submit</button>
+        </div>
+        <div class="trans-cards">
+          <h2>Withdrawal Amount</h2>
+          <input
+            type="number"
+            id="Withdrawal amount"
+            name="Withdrawal amount"
+            placeholder="Withdrawal amount"
+          />
+          <button type="submit">Submit</button>
+        </div>
+        <div class="trans-cards">
+          <h2>Loan Amount</h2>
+          <input
+            type="number"
+            id="Loan amount"
+            name="Loan amount"
+            placeholder="Loan amount"
+          />
+          <button type="submit">Submit</button>
+          <p style="color: red; display: none; font-size: 14px;" id="error">Not Applicable</p>
+        </div>
+      </div>
+      <div class="hist-card">
+        <h1>Transaction History</h1>
+        <div class="heading">
+          <div class="trans">
+            <h2>Transfered:</h2>
+            <br />
+            <div style="display: flex;">Rs.<p id="tranfer-amt">5000</p></div>
+          </div>
+          <div class="trans-date">
+            <p id="currentdate">date</p>
+          </div>
+        </div>
+        <div class="heading1">
+          <div class="withdr">
+            <h2>Withdrawal:</h2>
+            <br />
+            <h4>Rs.500</h4>
+          </div>
+          <div class="withdr-date">
+            <h4>Date: 30 March 2024</h4>
+          </div>
+        </div>
+        <div class="heading2">
+          <div class="loan">
+            <h2>Loan:</h2>
+            <br />
+            <h4>Rs.800</h4>
+          </div>
+          <div class="loan-date">
+            <h4>Date: 30 March 2024</h4>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <script src="transfer.js"></script>
+  </body>
+</html>
