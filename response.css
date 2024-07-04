@@ -1,0 +1,32 @@
+@media only screen and (max-width:1024px)
+{
+    .submit{
+         width: 27%;
+    }
+
+}
+@media only screen and (max-width:480px)
+{
+    .details{
+        
+        display: block;
+    }
+    .details .trans-cards{
+        width: 80%;
+        margin: 40px;
+        
+    }
+    .hist-card h1 {
+        text-align: center;
+        font-size: 34px;
+    }
+    .heading{
+        margin-left: 20px;
+    }
+    .heading1{
+        margin-left: 20px;
+    }
+    .heading2{
+        margin-left: 20px;
+    }
+}
